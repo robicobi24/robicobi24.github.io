@@ -136,7 +136,7 @@ nav .nav-item .nav-link:hover::after, nav .nav-item .nav-link:focus::after {
 .section {
     scroll-snap-align: start;
     height: 100vh;
-    width: 75vw;
+    width: 85vw;
     justify-self: center;
     display: grid;
     gap: 10px;
@@ -144,7 +144,7 @@ nav .nav-item .nav-link:hover::after, nav .nav-item .nav-link:focus::after {
     grid-template-rows: repeat(8, 1fr);
     align-items: center;
     justify-content: center;
-    padding: 20vh;
+    padding: 10vh;
 }
 
 .bento-item {
@@ -152,6 +152,9 @@ nav .nav-item .nav-link:hover::after, nav .nav-item .nav-link:focus::after {
     width: 100%;
     border-radius: 10px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .corner-left {
@@ -184,4 +187,14 @@ nav .nav-item .nav-link:hover::after, nav .nav-item .nav-link:focus::after {
 
 .mid-right {
     grid-area: 5 / 11 / 7 / 13;
+}
+
+.contact {
+    scroll-snap-align: start;
+    scroll-margin-top: 10vh;
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
